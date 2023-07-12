@@ -35,10 +35,11 @@ const app = express();
 
 app.get("/",(req, res)=>{
     // res.send("hi")
-    res.json({
-        success:true,
-        products:[],
-    })
+    // res.json({
+    //     success:true,
+    //     products:[],
+    // })
+    res.render("index.ejs")
 })
 
 app.listen(5000 , ()=>{
