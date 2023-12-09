@@ -10,6 +10,10 @@ app.get("/twitter", (req, res) => {
   res.send("amirsohail335");
 });
 
+app.get("/twitter1", (req, res) => {
+  res.send("amirsohail3351");
+});
+
 app.get("/login", (req, res) => {
   console.log("<h1>Login Page</h1>");
 });
