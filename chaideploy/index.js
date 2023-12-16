@@ -22,6 +22,10 @@ app.get("/login", (req, res) => {
   console.log("<h1>Login Page2</h1>");
 });
 
+app.get("/login", (req, res) => {
+  console.log("<h1>Login Page3</h1>");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
